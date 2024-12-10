@@ -7,15 +7,14 @@
 body {
   display: grid;
   min-height: 100vh;
-
   place-content: center;
-  background: #ccc;
 }
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 40px;
   max-width: 800px;
+  box-shadow: 10px 10px 20px hsla(200, 59%, 70%, 0.350);
+border-radius: 30px;
 }
 .your-result {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -72,7 +71,6 @@ padding: 20px;
   /* margin-top: -; */
 }
 .summary {
-  background: #fff;
   margin-left: -20px;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
