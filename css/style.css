@@ -7,7 +7,7 @@
 body {
   display: grid;
   min-height: 100vh;
-  max-width: 1440px;
+
   place-content: center;
   background: #ccc;
 }
@@ -15,6 +15,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 40px;
+  max-width: 800px;
 }
 .your-result {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
